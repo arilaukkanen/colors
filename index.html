@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html ng-app="myApp">
+	<head>
+		<meta charset="UTF-8">
+		<script type="text/javascript" src="angular.min.js"></script>
+		<script type="text/javascript" src="app.js"></script>
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<title>Colors</title>
+	</head>
+	<body>
+		<div class="gameTableDiv" ng-controller="GameController">
+			<table class="gameTable">
+				<tr ng-repeat="row in gameBoard">
+
+						<td class="gameTd" ng-repeat="tile in row" ng-click="click(tile)">
+						<div class="tile_{{ tile.color }}">
+							
+						</div>
+					</td>
+				</tr>
+				
+			</table>
+			<div class="scoreDiv">{{ score }}</div>
+			<div class="gameEndPopup" ng-show="gameEnd">
+				{{ endMessageLine1 }}<br>{{ endMessageLine2 }}
+				<div class="newGameButton" ng-click="newGame()">PLAY AGAIN</div>
+
+			</div>
+		</div>
+	</body>
+</html>

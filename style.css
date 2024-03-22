@@ -1,0 +1,201 @@
+
+body {
+  width: 100%;
+  height: 100%;
+  background-color: #e2e2e2;
+/*  background: -webkit-radial-gradient(#f2a7a7, Black);
+  background: -o-radial-gradient(#f2a7a7, Black);
+  background: -moz-radial-gradient(#f2a7a7, Black);*/
+  background: radial-gradient(#445566, Black);
+
+  background: url("pattern-48yh.png");*/
+
+  
+  color: #BBBBBB;
+  font-family: Arial;
+  margin-top: 30px;
+  height: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  text-shadow: 1px 1px 4px #111111;
+  transform: scale(0.9);
+	-webkit-transform: scale(0.9);
+}
+div.gameTitle {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  font-size: 36px;
+  margin-top: 27px;
+  margin-bottom: 1px;
+  text-shadow: 1px 1px 4px #999999;
+}
+
+/*div.mainDiv {
+  background:LightBlue;
+  border: 10px #aaaaaa;
+  border-radius: 100px;
+  padding:50px;
+
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+
+}*/
+
+table.gameTable {
+  background: linear-gradient(#333333, #111111);
+  /*background:LightBlue;*/
+  
+
+  border: 15px solid #666666;
+  border-radius: 80px;
+  padding:40px;
+  box-shadow: 10px 10px 30px #111111;
+
+  margin-top:0px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  /*margin-left:100px;*/
+
+}
+
+td.gameTd {
+/*  border: 1px solid black;*/
+  /*empty-cells: show;*/
+  /*width:10px;*/
+  /*height:10px;*/
+}
+
+div.scoreDiv {
+  color: #888899;
+  color: #777777;
+  margin-top:10px;
+  font-size: 22px;
+  text-shadow: 1px 1px 4px #555555;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+
+  background: linear-gradient(#333333, #111111);
+  /*background: linear-gradient(#aaaaaa, #888888);*/
+  /*background:LightBlue;*/
+  
+
+  border: 1px solid #555555;
+  border-radius: 10px;
+  padding:5px;
+  box-shadow: 10px 10px 20px #111111;
+  width:80px;
+
+}
+
+div.gameEndPopup {
+  color: #BBBBBB;
+  z-index: 1;
+  position: absolute;
+  border: 4px solid #BBBBBB;
+  border-radius: 10px;
+  padding: 20px;
+  top: 50%;
+  left: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  width: 300px;
+  height: 100px;
+  margin-top: -180px;
+  margin-left: -170px;
+  background: radial-gradient(#445566, Black);
+  box-shadow: 10px 10px 20px #111111;
+
+}
+
+div.newGameButton {
+  background-color: #445588;
+  color: #BBBBBB;
+  font-size: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  margin-top: 10px;
+  padding: 10px;
+  border: 4px solid #BBBBBB;
+  border-radius: 10px;
+  box-shadow: 1px 1px 5px #999999;
+  text-shadow: 1px 1px 4px #999999;
+  transition: 0.3s ease-in-out;
+  width: 60%;
+  cursor: default;
+}
+
+div.newGameButton:hover {
+  background-color: #4A5A8A;
+  box-shadow: 1px 1px 15px #AAAAAA;
+}
+
+
+table.scoreReference {
+  color: #666666;
+  border: 2px solid #333333;
+  border-radius: 10px;
+  padding:20px;
+  box-shadow: 10px 10px 20px #111111;
+
+  margin-top:10px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+
+}
+
+/*['red', 'blue', 'yellow', 'green', 'purple']*/
+
+div.tile_1 {
+  padding:20px;
+  background-color:red;
+  background: radial-gradient(Red, DarkRed);
+  border-radius: 5px;
+}
+
+div.tile_2 {
+  padding:20px;
+  background-color:Blue;
+  background: radial-gradient(#8888FF, Blue);
+  border-radius: 5px;
+}
+
+div.tile_3 {
+  padding:20px;
+  background-color:Yellow;
+  background: radial-gradient(Yellow, Orange);
+  border-radius: 5px;
+}
+
+div.tile_4 {
+  padding:20px;
+  background-color:Green;
+  background: radial-gradient(#88EE88, Green);
+  border-radius: 5px;
+}
+
+div.tile_5 {
+  padding:20px;
+  background-color:Purple;
+  background: radial-gradient(#EE55EE, Purple);
+  border-radius: 5px;
+}
+
+div.tile_0 {
+  padding:20px;
+  background-color:black;
+  border-radius: 5px;
+}
+
+
+
+div.omadiv {
+  background-color:red;
+}
